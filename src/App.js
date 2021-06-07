@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <button onClick={() => {
+      {/* <button onClick={() => {
         setVisible(!visible);
       }}
       >
@@ -18,7 +18,7 @@ function App() {
       </button>
       <hr />
       {visible && <Info />}
-      <Counter />
+      <Counter /> */}
       <Average />
     </div>
   );
